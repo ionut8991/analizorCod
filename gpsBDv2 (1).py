@@ -4,10 +4,10 @@ from datetime import datetime
 
 def connect_to_database():
     # Asigurați-vă că detaliile de conectare sunt corecte
-    server = 'techallenge.database.windows.net'
+    server = 'licentaupg.database.windows.net'
     database = 'MonitFlota'
-    username = 'tech_admin'
-    password = 'Parola1234'
+    username = 'licenta'
+    password = 'Admin1234@'
     driver = '{ODBC Driver 18 for SQL Server}'  # Asigurați-vă că aveți acest driver instalat
 
     connection_string = f"DRIVER={driver};SERVER={server};DATABASE={database};UID={username};PWD={password}"
